@@ -41,7 +41,3 @@ $$EDC_{\text{dir}}=\oint\left(\alpha(TSPT)+\beta(ALD)+\gamma(\nabla E)\right)d\t
 ## 4. 보안 및 기밀 유지 (Strict Confidentiality)
 
 * 본 엔진은 철저히 2원화(데이터 수집 노드 / 분석 HUD)된 폐쇄망 구조를 지향하며, 코어 파라미터(Threshold Matrix) 및 로깅 데이터의 외부 반출과 승인되지 않은 포트 접근을 엄격히 금지한다.
-
----
-
-다시 붙여넣어 보고 또 빨간 글씨로 에러 뿜는 수식 있으면 바로 알려줘! 호환되는 다른 기호로 싹 다듬어줄게.
