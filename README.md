@@ -41,3 +41,23 @@ $$EDC_{\text{dir}}=\oint\left(\alpha(TSPT)+\beta(ALD)+\gamma(\nabla E)\right)d\t
 ## 4. 보안 및 기밀 유지 (Strict Confidentiality)
 
 * 본 엔진은 철저히 2원화(데이터 수집 노드 / 분석 HUD)된 폐쇄망 구조를 지향하며, 코어 파라미터(Threshold Matrix) 및 로깅 데이터의 외부 반출과 승인되지 않은 포트 접근을 엄격히 금지한다.
+
+## 5. 위상 공간 시각화 (Phase Space Visualization)
+
+본 엔진은 수집된 시계열 데이터와 유동성 밀도를 2차원 위상 평면(Phase Plane)으로 투영하여 시각적 무결성을 실시간으로 검증한다. 아래의 **퀀텀-동기화 HUD (Quantum-Sync HUD)** 모델은 자본 유입의 가속도와 중력 편향을 직관적으로 나타내는 실제 구동 예시이다.
+
+<img width="1600" height="1062" alt="Code_Generated_Image" src="https://github.com/user-attachments/assets/a1d243da-33bb-4438-8ee5-e81f3790e0aa" />
+
+
+### 5.1. 상단 패널: 시계열 위상 텐서 궤적 (Phase Vector Trajectory)
+
+상단의 궤적은 단순한 가격(Price Action)이 아닌, 다중 프랙탈 주기에서 추출된 **위상 진폭(Phase Amplitude)**이다. 두 개의 비선형 밴드(보라색 영역)는 엔진이 연산하는 **동적 히스테리시스 방어막(Dynamic Hysteresis Shield)**을 시각화한 것이다.
+
+* 궤적이 방어막의 상단 임계점($+\delta$)을 돌파할 때만 거시적 상승 편향이 확립된 것으로 승인하며, 밴드 내부의 움직임은 철저히 시장 노이즈(Whipsaw)로 간주하여 소거한다.
+
+### 5.2. 하단 패널: 운동학적 델타 스러스트 (Kinetic Delta Thrust, KDT)
+
+하단의 오실레이터는 시간 윈도우($\tau$) 내에서 발생하는 유동성 밀도(ALD)의 순간 가속도 변화량이다.
+
+* 막대그래프(Bar)의 색상 스펙트럼은 자본의 유입(Cyan)과 유출(Magenta) 강도를 나타낸다.
+* 궤적을 관통하는 흰색 곡선은 가속도의 이동 평균 텐서이며, 이 값이 상/하단의 **극단적 임계선($\pm 4.0\sigma$)**을 타격하는 순간이 바로 스마트 머니의 기습적인 시장가 폭격이 발생하는 지점이다. 본 시스템은 이 충격파를 역산하여 추세 전환의 선행 지표로 활용한다.
